@@ -72,7 +72,7 @@ const Admission = () => {
       <section className="py-16  text-purple-700 text-center">
         <h2 className="text-3xl font-bold mb-4">Ready to Begin?</h2>
         <p className="mb-6">Enroll now and secure your future with expert guidance and proven results.</p>
-        <a href="/apply" className="bg-white text-indigo-700 px-6 py-3 rounded-full font-semibold hover:bg-indigo-100 transition">Apply Now</a>
+        <Link to="/apply" className="bg-white text-indigo-700 px-6 py-3 rounded-full font-semibold hover:bg-indigo-100 transition">Apply Now</Link>
       </section>
 
     </div>

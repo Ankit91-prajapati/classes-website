@@ -16,7 +16,11 @@ const ContactPage = () => {
         {/* Inquiry Form */}
         <div className="bg-white rounded-2xl shadow-xl p-8 bg-gradient-to-t from-cyan-400 to-sky-700" >
           <h2 className="text-2xl font-bold text-white mb-6">Inquiry Form</h2>
-          <form className="space-y-5">
+           <form className="space-y-5 " onSubmit={(e) => {
+              e.preventDefault();
+              // handle login logic here
+            }}
+          >
             <div>
               <label className="block mb-1 font-medium text-gray-700">Full Name</label>
               <input type="text" placeholder="Your Name" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500" />
