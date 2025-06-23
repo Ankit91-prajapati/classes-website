@@ -5,7 +5,7 @@ import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [color , setColor] = useState("white")
+
 
   const navItems = [
     ["Home" , '/'],
@@ -23,9 +23,9 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className=" shadow sticky top-0 z-50  " >
-      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center h-20">
-        <Link to="/" className="text-xl font-extrabold text-indigo-700">
+    <nav className=" sticky top-0 z-50 bg-gradient-to-r from-cyan-500 to-blue-700 " >
+      <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center h-20 ">
+        <Link to="/" className="text-2xl font-extrabold text-white">
           Classes Live
         </Link>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-6">
           {navItems.map(([label, path]) => (
             
-            <Link key={path} to={path} className={`text-gray-600 hover:text-red-600 `}>
+            <Link key={path} to={path} className={`text-white hover:text-rose-500 `}>
               {label}
             </Link>
           ))}
