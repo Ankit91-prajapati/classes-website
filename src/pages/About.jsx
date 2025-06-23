@@ -59,7 +59,7 @@ export default function About() {
                             className="rounded-lg w-full aspect-video object-cover shadow-sm hover:shadow-md transition"
                         />
                         <img
-                            key="1"
+                            key="2"
                             src="https://th.bing.com/th/id/OIP.ZEN2RSpbwo0M21NXAs51ngHaET?w=170&h=104&c=7&bgcl=0f2a71&r=0&o=6&dpr=1.5&pid=13.1"
                             alt="Image 1"
                             loading="lazy"

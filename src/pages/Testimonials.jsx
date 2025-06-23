@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import { FaStar } from "react-icons/fa";
-import student1 from "/student1.png";
-import student3 from "/student2.png";
-import student2 from "/student3.png";
+
 const testimonials = [
   {
     name: "Aarav Sharma",
@@ -10,7 +8,7 @@ const testimonials = [
     feedback:
       "Great teachers and doubt-clearing support. I scored 99% because of their help.",
     rating: 5,
-    photo: student1,
+    photo: "/student1.png",
   },
   {
     name: "Mrs. Kavita Joshi",
@@ -18,7 +16,7 @@ const testimonials = [
     feedback:
       "My daughter improved tremendously. Faculty gave constant guidance and motivation.",
     rating: 4,
-    photo: student2,
+    photo:"/student2.png",
   },
   {
     name: "Ananya Verma",
@@ -26,7 +24,7 @@ const testimonials = [
     feedback:
       "Study material, tests, and mentoring were excellent. Highly recommend.",
     rating: 5,
-    photo: student3,
+    photo:"/student3.png",
   },
 ];
 

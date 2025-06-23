@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-const AdmissionPage = () => {
+const Admission = () => {
   return (
     <div className=" text-gray-800 ">
       {/* Hero Section */}
@@ -79,4 +79,4 @@ const AdmissionPage = () => {
   );
 };
 
-export default AdmissionPage;
+export default Admission;

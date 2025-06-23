@@ -1,7 +1,5 @@
 import React from "react";
-import prof1 from "/prof1.png"
-import prof2 from "/prof2.png"
-import prof3 from "/prof3.png"
+
 const facultyData = [
   {
     name: "Dr. A. Sharma",
@@ -9,7 +7,7 @@ const facultyData = [
     qualification: "Ph.D. in Physics, IIT Delhi",
     experience: "12+ years",
     specialization: "Electrodynamics, Mechanics",
-    photo: prof1,
+    photo: "/prof1.png",
   },
   {
     name: "Ms. N. Verma",
@@ -17,15 +15,15 @@ const facultyData = [
     qualification: "M.Sc. in Chemistry, DU",
     experience: "9+ years",
     specialization: "Organic Chemistry, Physical Chemistry",
-    photo: prof2,
+    photo: "/prof2.png",
   },
-  {
+  {  
     name: "Mr. R. Gupta",
     subject: "Mathematics (IIT-JEE)",
     qualification: "B.Tech, NIT Trichy",
     experience: "10+ years",
     specialization: "Calculus, Algebra",
-    photo: prof3,
+    photo: "/prof3.png",
   },
   {
     name: "Mrs. K. Singh",
@@ -33,7 +31,7 @@ const facultyData = [
     qualification: "M.Sc. in Biology, BHU",
     experience: "7+ years",
     specialization: "Genetics, Botany",
-    photo:  prof1,
+    photo: "/prof1.png",
   },
   {
     name: "Mr. A. Patel",
@@ -41,7 +39,7 @@ const facultyData = [
     qualification: "B.Sc. B.Ed, Lucknow University",
     experience: "5+ years",
     specialization: "Class 9–10 CBSE",
-    photo: prof3,
+    photo:"/prof3.png",
   },
 ];
 
