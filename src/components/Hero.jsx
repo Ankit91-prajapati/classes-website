@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="relative h-screen flex items-center justify-center text-white text-center px-4 overflow-hidden w-full">
@@ -18,12 +18,8 @@ const Hero = () => {
         <p className="text-xl max-w-2xl mb-6 text-blue-500">
           Empowering Students for IIT, NEET, Boards, and Beyond
         </p>
-        <a
-          href="/admissions"
-          className="bg-white text-indigo-600 px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-gray-200 transition"
-        >
-          Enroll Now
-        </a>
+        
+        <Link to ="/admissions"  className="bg-white text-indigo-600 px-6 py-3 rounded-full text-lg font-semibold shadow hover:bg-gray-200 transition"> Enroll Now</Link>
       </div>
     </section>
   );
